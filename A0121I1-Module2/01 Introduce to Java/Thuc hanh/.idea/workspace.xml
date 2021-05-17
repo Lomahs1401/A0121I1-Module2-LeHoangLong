@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="837fc78e-6750-4c21-b8e0-f96d1e405a21" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../Bai tap/src/ConvertMoney.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Bai tap/src/CountNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Bai tap/src/SayHello.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BMI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DayInMonth.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LeapYear.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LinearEquation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SuDungToanTu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Variable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../07 Abstract class &amp; interface/Bai Tap/src/ResizeableAndColorableTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../07 Abstract class &amp; interface/Bai Tap/src/colorable/Colorable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../07 Abstract class &amp; interface/Bai Tap/src/resizeable/Circle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../07 Abstract class &amp; interface/Bai Tap/src/resizeable/Rectangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../07 Abstract class &amp; interface/Bai Tap/src/resizeable/Resizeable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../07 Abstract class &amp; interface/Bai Tap/src/resizeable/Shape.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../07 Abstract class &amp; interface/Bai Tap/src/resizeable/Square.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../07 Abstract class &amp; interface/Thuc hanh/src/AbstractAndInterfaceTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../07 Abstract class &amp; interface/Thuc hanh/src/CircleComparatorTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../07 Abstract class &amp; interface/Thuc hanh/src/ComparableCircleTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../07 Abstract class &amp; interface/Thuc hanh/src/animal/Animal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../07 Abstract class &amp; interface/Thuc hanh/src/animal/Chicken.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../07 Abstract class &amp; interface/Thuc hanh/src/animal/Tiger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../07 Abstract class &amp; interface/Thuc hanh/src/comparableCircle/Circle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../07 Abstract class &amp; interface/Thuc hanh/src/comparableCircle/CircleTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../07 Abstract class &amp; interface/Thuc hanh/src/comparableCircle/ComparableCircle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../07 Abstract class &amp; interface/Thuc hanh/src/comparableCircle/ShapeTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../07 Abstract class &amp; interface/Thuc hanh/src/edible/Edible.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../07 Abstract class &amp; interface/Thuc hanh/src/fruit/Apple.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../07 Abstract class &amp; interface/Thuc hanh/src/fruit/Fruit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../07 Abstract class &amp; interface/Thuc hanh/src/fruit/Orange.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="ProjectId" id="1sNvFmPYGINaYu9iBZCgvvcD57O" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../02 Loop in Java" />
+  </component>
+  <component name="RunManager" selected="Application.BMI">
+    <configuration name="BMI" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="BMI" />
+      <module name="Thuc hanh" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DayInMonth" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DayInMonth" />
+      <module name="Thuc hanh" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LeapYear" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LeapYear" />
+      <module name="Thuc hanh" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LinearEquation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LinearEquation" />
+      <module name="Thuc hanh" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SuDungToanTu" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SuDungToanTu" />
+      <module name="Thuc hanh" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.BMI" />
+        <item itemvalue="Application.LeapYear" />
+        <item itemvalue="Application.DayInMonth" />
+        <item itemvalue="Application.LinearEquation" />
+        <item itemvalue="Application.SuDungToanTu" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="837fc78e-6750-4c21-b8e0-f96d1e405a21" name="Default Changelist" comment="" />
+      <created>1620725760499</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1620725760499</updated>
+      <workItem from="1620725762160" duration="9000" />
+      <workItem from="1620726645504" duration="897000" />
+      <workItem from="1620728853296" duration="594000" />
+      <workItem from="1620734941463" duration="552000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="580" y="185" key="FileChooserDialogImpl" timestamp="1620739627533">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="580" y="185" key="FileChooserDialogImpl/0.0.1600.860@0.0.1600.860" timestamp="1620739627533" />
+    <state width="1557" height="222" key="GridCell.Tab.0.bottom" timestamp="1620739627556">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1557" height="222" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1620739627556" />
+    <state width="1557" height="222" key="GridCell.Tab.0.center" timestamp="1620739627556">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1557" height="222" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1620739627556" />
+    <state width="1557" height="222" key="GridCell.Tab.0.left" timestamp="1620739627556">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1557" height="222" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1620739627556" />
+    <state width="1557" height="222" key="GridCell.Tab.0.right" timestamp="1620739627556">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1557" height="222" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1620739627556" />
+    <state x="182" y="50" key="new project wizard" timestamp="1620725770313">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="182" y="50" key="new project wizard/0.0.1600.860@0.0.1600.860" timestamp="1620725770313" />
+  </component>
+</project>
