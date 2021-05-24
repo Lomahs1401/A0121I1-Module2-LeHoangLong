@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="5bceebae-7caa-4313-997d-06199a9cd7fe" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../08 Clean Code, Refactoring/Bai tap/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../08 Clean Code, Refactoring/Bai tap/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../08 Clean Code, Refactoring/Bai tap/java-cleancode-refactoring-exercise" beforeDir="false" afterPath="$PROJECT_DIR$/../08 Clean Code, Refactoring/Bai tap/java-cleancode-refactoring-exercise" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../08 Clean Code, Refactoring/Thuc hanh/java-cleancode-refactoring-method-extraction" beforeDir="false" afterPath="$PROJECT_DIR$/../08 Clean Code, Refactoring/Thuc hanh/java-cleancode-refactoring-method-extraction" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../08 Clean Code, Refactoring/Thuc hanh/java-cleancode-refactoring-renaming" beforeDir="false" afterPath="$PROJECT_DIR$/../08 Clean Code, Refactoring/Thuc hanh/java-cleancode-refactoring-renaming" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../08 Clean Code, Refactoring/Thuc hanh/java-cleancode-refactoring-variable-extraction" beforeDir="false" afterPath="$PROJECT_DIR$/../08 Clean Code, Refactoring/Thuc hanh/java-cleancode-refactoring-variable-extraction" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectId" id="1sypmFz6M3nP2xYYdlHhKkNLZ4M" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5bceebae-7caa-4313-997d-06199a9cd7fe" name="Default Changelist" comment="" />
+      <created>1621854840737</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1621854840737</updated>
+      <workItem from="1621854842687" duration="13000" />
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="762" y="171" key="FileChooserDialogImpl" timestamp="1621854854496">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="762" y="171" key="FileChooserDialogImpl/0.0.1600.860@0.0.1600.860" timestamp="1621854854496" />
+    <state x="365" y="50" key="new project wizard" timestamp="1621854858164">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="365" y="50" key="new project wizard/0.0.1600.860@0.0.1600.860" timestamp="1621854858164" />
+  </component>
+</project>

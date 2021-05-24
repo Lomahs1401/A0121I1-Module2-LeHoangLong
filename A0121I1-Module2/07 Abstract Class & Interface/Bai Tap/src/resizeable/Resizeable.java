@@ -1,5 +1,5 @@
 package resizeable;
 
 public interface Resizeable {
-    double resize(double percent);
+    void resize(double percent);
 }
