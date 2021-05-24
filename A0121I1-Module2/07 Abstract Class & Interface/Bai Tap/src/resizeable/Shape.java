@@ -1,5 +1,7 @@
 package resizeable;
 
+import java.util.Iterator;
+
 public class Shape {
     protected String color = "green";
     protected boolean filled = true;

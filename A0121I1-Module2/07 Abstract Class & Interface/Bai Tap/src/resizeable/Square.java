@@ -41,10 +41,6 @@ public class Square extends Rectangle implements Colorable {
 
                 + ", perimeter = " + getPerimeter() + ", area = " + getArea();
     }
-//    @Override
-//    public double resize(double percent) {
-//        return getArea()*percent / 100 ;
-//    }
 
     @Override
     public String howToColor() {

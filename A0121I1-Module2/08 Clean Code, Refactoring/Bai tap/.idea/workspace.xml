@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="f1bb4a15-b92e-4378-8aa2-99e33f147189" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../untitled/src/exception/Calculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../untitled/src/exception/DividedByZeroException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../10 DSA Danh sach/Bai tap/src/my_arraylist/MyArrayList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../10 DSA Danh sach/Bai tap/src/my_arraylist/TestMyArrayList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../10 DSA Danh sach/Bai tap/src/my_linkedlist/MyLinkedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../10 DSA Danh sach/Bai tap/src/my_linkedlist/TestMyLinkedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../10 DSA Danh sach/Thuc hanh/src/demo_my_linkedlist/MyLinkedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../10 DSA Danh sach/Thuc hanh/src/demo_my_linkedlist/TestMyLinkedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../10 DSA Danh sach/Thuc hanh/src/demo_my_list/MyList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../10 DSA Danh sach/Thuc hanh/src/demo_my_list/MyListTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../07 Abstract Class &amp; Interface/Bai Tap/src/resizeable/Shape.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../07 Abstract Class &amp; Interface/Bai Tap/src/resizeable/Shape.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../07 Abstract Class &amp; Interface/Bai Tap/src/resizeable/Square.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../07 Abstract Class &amp; Interface/Bai Tap/src/resizeable/Square.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bai tap.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Bai tap.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-cleancode-refactoring-exercise/src/TennisGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-cleancode-refactoring-exercise/src/TennisGame.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-cleancode-refactoring-exercise/test/TennisGameTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-cleancode-refactoring-exercise/test/TennisGameTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thuc hanh/java-cleancode-refactoring-method-extraction" beforeDir="false" afterPath="$PROJECT_DIR$/../Thuc hanh/java-cleancode-refactoring-method-extraction" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thuc hanh/java-cleancode-refactoring-renaming" beforeDir="false" afterPath="$PROJECT_DIR$/../Thuc hanh/java-cleancode-refactoring-renaming" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Thuc hanh/java-cleancode-refactoring-variable-extraction" beforeDir="false" afterPath="$PROJECT_DIR$/../Thuc hanh/java-cleancode-refactoring-variable-extraction" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/java-cleancode-refactoring-exercise" />
+  </component>
+  <component name="ProjectId" id="1sf3zFANMeGllQEZ9AgOS0cZ5QB" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="extract.method.default.visibility" value="private" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RunManager">
+    <configuration name="TennisGameTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Bai tap" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TennisGameTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.TennisGameTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f1bb4a15-b92e-4378-8aa2-99e33f147189" name="Default Changelist" comment="" />
+      <created>1621250076895</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1621250076895</updated>
+      <workItem from="1621250078889" duration="3429000" />
+      <workItem from="1621426293889" duration="71000" />
+      <workItem from="1621742790708" duration="1267000" />
+      <workItem from="1621851751755" duration="726000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="736" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1621852473749">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="736" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1600.860@0.0.1600.860" timestamp="1621852473749" />
+    <state x="580" y="185" key="FileChooserDialogImpl" timestamp="1621744452318">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="580" y="185" key="FileChooserDialogImpl/0.0.1600.860@0.0.1600.860" timestamp="1621744452318" />
+    <state x="504" y="322" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1621743258033">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="504" y="322" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.0.1600.860@0.0.1600.860" timestamp="1621743258033" />
+    <state x="530" y="180" key="extract.method.dialog" timestamp="1621852223250">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="530" y="180" key="extract.method.dialog/0.0.1600.860@0.0.1600.860" timestamp="1621852223250" />
+    <state x="365" y="54" key="new project wizard" timestamp="1621260676493">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="365" y="54" key="new project wizard/0.0.1600.860@0.0.1600.860" timestamp="1621260676493" />
+  </component>
+</project>
