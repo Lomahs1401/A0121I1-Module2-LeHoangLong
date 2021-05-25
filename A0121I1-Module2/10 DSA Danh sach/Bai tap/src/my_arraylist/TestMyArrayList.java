@@ -40,6 +40,8 @@ public class TestMyArrayList {
         integerMyArrayList.add(2);
         integerMyArrayList.add(3);
         integerMyArrayList.add(4, 1);
+        integerMyArrayList.add(10, 7);
+        integerMyArrayList.add(7,6);
         System.out.println("Trước khi xóa các phần tử integerMyArrayList bằng phương thức clear()");
         for (int i = 0; i < integerMyArrayList.size(); ++i) {
             System.out.print(integerMyArrayList.get(i) + ", ");
