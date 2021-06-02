@@ -239,7 +239,7 @@ public class MyLinkedList<E> {
      * @return
      */
     public E getFirst() {
-        //trả về dữ liệu của Node cuối
+        //trả về dữ liệu của Node đầu tiên
         return (E) head.data;
     }
 
@@ -284,7 +284,4 @@ public class MyLinkedList<E> {
         }
         currentNode.data = null;
     }
-
-
-
 }

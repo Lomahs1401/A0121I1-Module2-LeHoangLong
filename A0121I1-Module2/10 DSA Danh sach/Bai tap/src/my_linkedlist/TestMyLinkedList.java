@@ -65,7 +65,7 @@ public class TestMyLinkedList {
                 "------------------------------------------");
         System.out.println("Sau khi add: ");
         System.out.print("studentMyLinkedList: ");
-        studentMyLinkedList.add(1,studentOfDuyTan);
+        studentMyLinkedList.add(3,studentOfDuyTan);
 
         for (int i = 0; i < studentMyLinkedList.size(); i++) {
             Student student = studentMyLinkedList.get(i);
@@ -197,7 +197,7 @@ public class TestMyLinkedList {
         System.out.println("Lấy phần tử tại vị trí index 2 của firstCloneLinkedList" +
                 " => firstCloneLinkedList.get(2)");
         Student getIndexStudent = firstCloneLinkedList.get(2);
-        System.out.println("Phần tử tại vị trí index2 có tên: " + getIndexStudent.getName());
+        System.out.println("Phần tử tại vị trí index2 của danh sách liên kết có tên: " + getIndexStudent.getName());
         System.out.println("Lấy phần tử đầu tiên của danh sách liên kết" +
                 " => firstCloneLinkedList.getFirst()");
         Student getFirstStudent = firstCloneLinkedList.getFirst();
