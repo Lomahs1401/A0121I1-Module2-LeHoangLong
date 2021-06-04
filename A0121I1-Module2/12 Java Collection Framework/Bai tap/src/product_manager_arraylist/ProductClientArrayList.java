@@ -1,6 +1,9 @@
+package product_manager_arraylist;
+
+import product.Product;
 import java.util.Scanner;
 
-public class ProductClient {
+public class ProductClientArrayList {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         Product product1 = new Product();
@@ -19,9 +22,9 @@ public class ProductClient {
         Product product10 = new Product(692502539, "Huawei P30 Pro");
 
         /*
-        khai báo và khởi tạo đối tượng productManager của lớp ProductManager
-        Lớp ProductManager sử dụng 1 mảng ArrayList để lưu trữ các phần tử
-        Lớp ProductManager cung cấp 1 số phương thức để thao tác dữ liệu product
+        khai báo và khởi tạo đối tượng productManagerArrayList của lớp ProductManagerArrayList
+        Lớp ProductManagerArrayList sử dụng 1 mảng ArrayList để lưu trữ các phần tử
+        Lớp ProductManagerArrayList cung cấp 1 số phương thức để thao tác dữ liệu product
          */
 
         ProductManagerArrayList productManagerArrayList1 = new ProductManagerArrayList();
@@ -30,10 +33,10 @@ public class ProductClient {
         ProductManagerArrayList productManagerArrayList4 = new ProductManagerArrayList();
 
         /*
-        Phương thức showProduct(Product product) giúp hiển thị thông tin của 1 Product
+        Phương thức showProduct(Product product) giúp hiển thị thông tin của 1 product
          */
 
-        System.out.println("Sử dụng phương thức showProduct: showProduct1");
+        System.out.println("Sử dụng phương thức showProduct: show Product1");
         productManagerArrayList1.showProduct(product1);
         System.out.println("---------------------------------------------------------------------------------");
 
@@ -41,7 +44,8 @@ public class ProductClient {
         Phương thức addProduct(Product product) giúp thêm 1 phần tử vào cuối danh sách, và hàm trả về kiểu boolean
          */
 
-        System.out.println("Sử dụng phương thức addProduct: thêm các product1 -> product5 vào productManager1");
+        System.out.println("Sử dụng phương thức addProduct: " +
+                "thêm các product1 -> product5 vào productManagerArrayList1");
         productManagerArrayList1.addProduct(product1);
         productManagerArrayList1.addProduct(product2);
         productManagerArrayList1.addProduct(product3);
@@ -50,14 +54,24 @@ public class ProductClient {
         System.out.println("---------------------------------------------------------------------------------");
 
         /*
-        Phương thức showAllProduct(ProductManager productManager)
-        giúp hiển thị tất cả thông tin của Product trong ArrayList
+        Phương thức getProduct(int index) giúp lấy 1 product trong danh sách
+         */
+        System.out.println("Sử dụng phương thức getProduct(int index): Lấy product ở index = 2");
+        Product getProduct = productManagerArrayList1.getProduct(2);
+        System.out.println("Giá trị trả về của product ở vị trí index 2: " + getProduct.toString());
+        System.out.println("Sau khi lấy, ta có danh sách các product ở productManagerArrayList1: ");
+        productManagerArrayList1.showAllProduct(productManagerArrayList1);
+        System.out.println("---------------------------------------------------------------------------------");
+
+        /*
+        Phương thức showAllProduct(ProductManagerArrayList productManagerArrayList)
+        giúp hiển thị tất cả thông tin của product trong ArrayList
          */
         System.out.println("Sử dụng phương thức showAllProduct: show product1 -> product5");
         productManagerArrayList1.showAllProduct(productManagerArrayList1);
         System.out.println("---------------------------------------------------------------------------------");
 
-        System.out.println("Sử dụng phương thức addProduct: thêm các product vào productManager2");
+        System.out.println("Sử dụng phương thức addProduct: thêm các product vào productManagerArrayList2");
         productManagerArrayList2.addProduct(product6);
         productManagerArrayList2.addProduct(product7);
         productManagerArrayList2.addProduct(product9);
@@ -75,8 +89,8 @@ public class ProductClient {
         System.out.println("---------------------------------------------------------------------------------");
 
         /*
-        Phương thức addAllProduct(int index, ProductManager productManager)
-        giúp thêm tất cả product của 1 Collection chỉ định vào Collection gọi đến phương thức này
+        Phương thức addAllProduct(int index, ProductManagerArrayList Collection giúp thêm tất cả product của 1
+        Collection chỉ định vào Collection gọi đến phương thức này
          */
         System.out.println("Sử dụng phương thức addAllProduct:" +
                 " add tất cả phần tử product ở Collection productManager2 vào Collection productManager1 ");
@@ -89,8 +103,8 @@ public class ProductClient {
         productManagerArrayList3.addProduct(product5);
 
         /*
-        Phương thức insertAllProduct(int index, ProductManager productManager) giúp chèn tất cả product của 1 Collection
-        chỉ định vào Collection gọi đến phương thức này, bắt đầu tại vị trí index
+        Phương thức insertAllProduct(int index, ProductManagerArrayList Collection) giúp chèn tất cả product của 1
+        Collection chỉ định vào Collection gọi đến phương thức này, bắt đầu tại vị trí index
          */
         System.out.println("Sử dụng phương thức insertAllProduct: insert Collection productManager3" +
                 " vào Collection productManager2");
@@ -107,7 +121,7 @@ public class ProductClient {
         productManagerArrayList4.addProduct(product5);
 
         /*
-        Phương thức deleteProduct(Product product) giúp xóa 1 Product khỏi danh sách ArrayList
+        Phương thức deleteProduct(product.Product product) giúp xóa 1 product.Product khỏi danh sách ArrayList
          */
         System.out.println("Sử dụng phương thức deleteProduct: delete product4 trong productManager3");
         System.out.println("Trước khi xóa product4: ");
@@ -118,9 +132,9 @@ public class ProductClient {
         System.out.println("---------------------------------------------------------------------------------");
 
         /*
-        Phương thức removeProduct(Product product) giúp xóa 1 phần tử khỏi danh sách và trả về phần tử (product) đó
+        Phương thức removeProduct(product.Product product) giúp xóa 1 phần tử khỏi danh sách và trả về phần tử (product) đó
          */
-        System.out.println("Sử dụng phương thức removeProduct(Product product): remove product1 trong productManager4");
+        System.out.println("Sử dụng phương thức removeProduct(product.Product product): remove product1 trong productManager4");
         System.out.println("Trước khi remove product1: ");
         productManagerArrayList4.showAllProduct(productManagerArrayList4);
         Product receiveProduct1;
@@ -152,14 +166,14 @@ public class ProductClient {
         System.out.println("Sử dụng phương thức searchProduct(): ");
         Product searchProduct = productManagerArrayList1.searchProduct();
         System.out.println("Giá trị trả về là: " + searchProduct.toString());
-        System.out.println("Tìm product8 trong productManager1");
+        System.out.println("Tìm product8 trong productManagerArrayList1: ");
         productManagerArrayList1.searchProduct(product8);
         System.out.println("---------------------------------------------------------------------------------");
 
         /*
         Phương thức searchProduct(Product product) giúp tìm kiếm 1 product chỉ định trong danh sách
          */
-        System.out.println("Sử dụng phương thức sapXepProduct() với Collection productManager1: ");
+        System.out.println("Sử dụng phương thức sapXepProduct() với Collection productManagerArrayList1: ");
         System.out.println("Trước khi sắp xếp ID: ");
         productManagerArrayList1.showAllProduct(productManagerArrayList1);
         System.out.println("Sau khi sắp xếp ID: ");
@@ -168,17 +182,17 @@ public class ProductClient {
         System.out.println("---------------------------------------------------------------------------------");
 
         /*
-        Phương thức changeInforProduct(Product product) giúp thay đổi product được chỉ định
+        Phương thức changeInfoProduct(Product product) giúp thay đổi product được chỉ định
          */
-        System.out.println("Sử dụng phương thức changeInforProduct(Product product)" +
+        System.out.println("Sử dụng phương thức changeInfoProduct(product.Product product)" +
                 " thay đổi product3 với Collection productManager1: ");
-        productManagerArrayList1.changeInforProduct(product3);
+        productManagerArrayList1.changeInfoProduct(product3);
 
         /*
-        Phương thức changeInforProduct(int index) giúp thay đổi product tại vị trí index chỉ định
+        Phương thức changeInfoProduct(int index) giúp thay đổi product tại vị trí index chỉ định
          */
-        System.out.println("Sử dụng phương thức changeInforProduct(int index) thay đổi" +
+        System.out.println("Sử dụng phương thức changeInfoProduct(int index) thay đổi" +
                 " product tại vị trí index = 5 với Collection productManager1: ");
-        productManagerArrayList1.changeInforProduct(5);
+        productManagerArrayList1.changeInfoProduct(5);
     }
 }

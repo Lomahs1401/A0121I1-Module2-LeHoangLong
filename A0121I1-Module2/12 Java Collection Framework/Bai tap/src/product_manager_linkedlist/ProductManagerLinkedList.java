@@ -1,72 +1,97 @@
-import java.util.ArrayList;
+package product_manager_linkedlist;
+
+import product.Product;
+
 import java.util.Collections;
+import java.util.LinkedList;
 import java.util.Scanner;
 
-public class ProductManagerArrayList {
-    //Sử dụng lớp ArrayList để lưu danh sách sản phẩm
-    ArrayList<Product> productArrayList = new ArrayList<>(10);
+public class ProductManagerLinkedList {
     Scanner input = new Scanner(System.in);
+    //Sử dụng lớp LinkedList để lưu danh sách sản phẩm
+    LinkedList<Product> productLinkedList = new LinkedList<>();
 
     //Constructor
-    public ProductManagerArrayList() {
+    public ProductManagerLinkedList() {
     }
 
-    // Thêm 1 product vào cuối danh sách ArrayList
-    public void addProduct(Product product){
-        productArrayList.add(product);
+    // Thêm 1 product chỉ đinh vào đầu danh sách liên kết
+    public void addFirstProduct(Product product) {
+        productLinkedList.addFirst(product);
     }
 
-    // Thêm tất cả các phần tử của collection vào ArrayList ở cuối danh sách
-    public void addAllProduct(ProductManagerArrayList productManagerArrayList) {
-        productArrayList.addAll(productManagerArrayList.productArrayList);
-
+    // Thêm 1 product chỉ định vào cuối danh sách liên kết
+    public void addLastProduct(Product product) {
+        productLinkedList.addLast(product);
     }
 
-    // Chèn 1 product tại 1 vị trí index chỉ định trong ArrayList
+    // Thêm tất cả các phần tử của Collection chỉ đinh vào cuối danh sách liên kết của Collection hiện tại
+    public void addAllProduct(ProductManagerLinkedList collection) {
+        productLinkedList.addAll(collection.productLinkedList);
+    }
+
+    // Chèn 1 product chỉ định vào 1 vị trí index chỉ định
     public void insertProduct(int index, Product product) {
-        if (index > productArrayList.size() - 1 || index < 0) {
+        if (index > productLinkedList.size() - 1 || index < 0) {
             throw new IllegalArgumentException();
         } else {
-            productArrayList.add(index, product);
+            productLinkedList.add(index, product);
         }
     }
 
-    // Chèn tất cả các phần tử của collection vào ArrayList tại vị trí index
-    public void insertAllProduct(int index, ProductManagerArrayList productManagerArrayList) {
-        if (index > productArrayList.size() - 1 || index < 0) {
+    // Chèn tất cả các phần tử của Collection chỉ định bắt đầu từ vị trí index của Collection hiện tại
+    public void insertAllProduct(int index, ProductManagerLinkedList collection) {
+        if (index > productLinkedList.size() - 1 || index < 0) {
             throw new IllegalArgumentException();
         } else {
-            productArrayList.addAll(index, productManagerArrayList.productArrayList);
+            productLinkedList.addAll(index, collection.productLinkedList);
         }
     }
 
     // Xóa 1 product và không trả về product đó
     public void deleteProduct(Product product) {
-        if (productArrayList.contains(product)) {
-            productArrayList.remove(product);
+        if (productLinkedList.contains(product)) {
+            productLinkedList.remove(product);
         } else {
             throw new IllegalArgumentException();
         }
     }
 
-    // Trả về 1 product được chỉ định
+    // Xóa 1 product được chỉ định và trả về 1 product đó
     public Product removeProduct(Product product) {
-        if (productArrayList.contains(product)) {
-            return productArrayList.remove(productArrayList.indexOf(product));
+        if (productLinkedList.contains(product)) {
+            return productLinkedList.remove(productLinkedList.indexOf(product));
         } else {
             throw new IllegalArgumentException();
         }
     }
 
-    // Trả về 1 product tại 1 vị trí index được chỉ định
+    // Xóa 1 product tại vị trí index chỉ định và trả về product đó
     public Product removeProduct(int index) {
-        Product product;
-        if (index > productArrayList.size() - 1 || index < 0) {
+        if (index > productLinkedList.size() - 1 || index < 0) {
             throw new IllegalArgumentException();
         } else {
-            product = productArrayList.remove(index);
+            return productLinkedList.remove(index);
         }
-        return product;
+    }
+
+    // Trả về product tại vị trí index chỉ định trong danh sách
+    public Product getProduct(int index) {
+        if (index > productLinkedList.size() - 1 || index < 0) {
+            throw new IllegalArgumentException();
+        } else {
+            return productLinkedList.get(index);
+        }
+    }
+
+    // Trả về product đầu tiên trong danh sách liên kết
+    public Product getFirstProduct() {
+        return productLinkedList.getFirst();
+    }
+
+    // Trả về product cuối cùng trong danh sách liên kết
+    public Product getLastProduct() {
+        return productLinkedList.getLast();
     }
 
     // Tìm kiếm 1 product
@@ -85,11 +110,11 @@ public class ProductManagerArrayList {
                 case 0: {
                     System.out.println("Nhập ID cần tìm: ");
                     id = input.nextInt();
-                    for (Product value : productArrayList) {
+                    for (Product value : productLinkedList) {
                         if (value.getId() == id) {
                             product = value;
                             isExist = true;
-                            System.out.printf("Product có ID %d có trong danh sách!\n", id);
+                            System.out.printf("product có ID %d có trong danh sách!\n", id);
                             break;
                         }
                     }
@@ -99,13 +124,13 @@ public class ProductManagerArrayList {
                     break;
                 }
                 case 1: {
-                    System.out.println("Nhập tên Product cần tìm: ");
+                    System.out.println("Nhập tên product cần tìm: ");
                     name = input.nextLine();
-                    for (Product value : productArrayList) {
+                    for (Product value : productLinkedList) {
                         if (value.getName().equals(name)) {
                             product = value;
                             isExist = true;
-                            System.out.printf("Product %s có trong danh sách!\n", name);
+                            System.out.printf("product %s có trong danh sách!\n", name);
                             break;
                         }
                     }
@@ -122,44 +147,50 @@ public class ProductManagerArrayList {
         } while (check);
         return product;
     }
+
     // Tìm kiếm 1 product được chỉ định
     public void searchProduct(Product product) {
-        for (int i = 0; i < productArrayList.size(); ++i) {
-            if (productArrayList.get(i).equals(product)) {
-                System.out.println("Product cần tìm có trong danh sách, ở vị trí index: " + i);
+        boolean flag = false;
+        for (int i = 0; i < productLinkedList.size(); ++i) {
+            if (productLinkedList.get(i).equals(product)) {
+                System.out.println("product cần tìm có trong danh sách, ở vị trí index: " + i);
+                flag = true;
                 break;
             }
         }
-     }
+        if (!flag) {
+            System.out.println("Không tìm thấy product cần tìm!\n");
+        }
+    }
 
     // Sắp xếp ID product theo thứ tự tăng dần
     public void sapXepProduct() {
-        Collections.sort(productArrayList);
+        Collections.sort(productLinkedList);
     }
 
-    // Thay đổi thông tin của 1 product tại chỉ mục index truyền vào
-    public void changeInforProduct(int index) {
+    // Thay đổi thông tin của 1 product tại chỉ mục index chỉ định
+    public void changeInfoProduct(int index) {
         //trả về phần tử product trong productArrayList và gán vào biến product
-        Product product = productArrayList.get(index);
+        Product product = productLinkedList.get(index);
         int choice;
-        if (index > productArrayList.size() - 1 || index < 0) {
+        if (index > productLinkedList.size() - 1 || index < 0) {
             throw new IllegalArgumentException();
         } else {
             boolean check;
             do {
                 check = false;
                 System.out.println("Bạn muốn sửa thông tin nào?");
-                System.out.println("0. ID \n1. Name Product: ");
+                System.out.println("0. ID \n1. Name product.Product: ");
                 choice = input.nextInt();
                 switch (choice) {
                     case 0: {
-                        System.out.print("Nhập lại ID của Product: ");
+                        System.out.print("Nhập lại ID của product: ");
                         product.setId(input.nextInt());
                         System.out.println("Đã thay đổi thành công!");
                         break;
                     }
                     case 1: {
-                        System.out.print("Nhập lại tên của Product: ");
+                        System.out.print("Nhập lại tên của product: ");
                         product.setName(input.nextLine());
                         System.out.println("Đã thay đổi thành công!");
                         break;
@@ -175,23 +206,23 @@ public class ProductManagerArrayList {
         System.out.println(product.toString());
     }
 
-    //Hàm thay đổi 1 product được chỉ đinh
-    public void changeInforProduct(Product product) {
+    // Thay đổi thông tin của 1 product được chỉ định
+    public void changeInfoProduct(Product product) {
         boolean check;
         do {
             check = false;
             System.out.println("Bạn muốn sửa thông tin nào?");
-            System.out.println("0. ID \n1. Name Product");
+            System.out.println("0. ID \n1. Name product.Product");
             int choose = input.nextInt();
             switch (choose) {
                 case 0: {
-                    System.out.print("Nhập lại ID của Product: ");
+                    System.out.print("Nhập lại ID của product.Product: ");
                     product.setId(input.nextInt());
                     System.out.println("Đã thay đổi thành công!");
                     break;
                 }
                 case 1: {
-                    System.out.print("Nhập lại tên của Product: ");
+                    System.out.print("Nhập lại tên của product.Product: ");
                     product.setName(input.nextLine());
                     System.out.println("Đã thay đổi thành công!");
                     break;
@@ -206,14 +237,14 @@ public class ProductManagerArrayList {
         System.out.println(product.toString());
     }
 
-    //Hàm in ra thông tin 1 product
+    // In ra thông tin của 1 product trong danh sách liên kết
     public void showProduct(Product product) {
         System.out.println(product.toString());
     }
 
-    //Hàm in ra tất cả thông tin của product trong ArrayList
-    public void showAllProduct(ProductManagerArrayList productManagerArrayList) {
-        for (Product product : productManagerArrayList.productArrayList) {
+    // In ra thông tin của tất cả product trong danh sách liên kết
+    public void showAllProduct(ProductManagerLinkedList managerLinkedList) {
+        for (Product product : managerLinkedList.productLinkedList) {
             System.out.println(product.toString());
         }
     }
