@@ -1,0 +1,2 @@
+Java la ngon ngu lap trinh bien dich. Javascript la ngon ngu lap trinh thong dich
+Java la mot trong cac ngon ngu lap trinh nen hoc danh cho nhung nguoi bat dau
