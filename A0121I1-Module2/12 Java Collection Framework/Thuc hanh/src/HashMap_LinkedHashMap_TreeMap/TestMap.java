@@ -1,3 +1,5 @@
+package HashMap_LinkedHashMap_TreeMap;
+
 import java.util.HashMap;
 import java.util.LinkedHashMap;
 import java.util.Map;
@@ -5,6 +7,8 @@ import java.util.TreeMap;
 
 public class TestMap {
     public static void main(String[] args) {
+        // ép kiểu ngầm định (Implicit Cast)
+        // Khai báo biến hashMap có kiểu dữ liệu là Interface
         Map<String, Integer> hashMap = new HashMap<>();
         hashMap.put("Smith", 30);
         hashMap.put("Anderson", 31);

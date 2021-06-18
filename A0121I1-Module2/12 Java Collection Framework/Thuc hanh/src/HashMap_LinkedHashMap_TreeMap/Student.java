@@ -1,3 +1,5 @@
+package HashMap_LinkedHashMap_TreeMap;
+
 public class Student implements Comparable <Student> {
 
     private String name;
@@ -36,7 +38,7 @@ public class Student implements Comparable <Student> {
 
     @Override
     public String toString() {
-        return "Student{" +
+        return "HashMap_LinkedHashMap_TreeMap.Student{" +
                 "name='" + name + '\'' +
                 '}';
     }

@@ -9,7 +9,6 @@ public class Student {
     }
 
     public Student(String name, int age, String address) {
-        super();
         this.name = name;
         this.age = age;
         this.address = address;
@@ -41,6 +40,6 @@ public class Student {
 
     @Override
     public String toString() {
-        return "Student@name=" + name + ",age=" + age + ",address=" + address;
+        return "HashMap_LinkedHashMap_TreeMap.Student@name=" + name + ",age=" + age + ",address=" + address;
     }
 }
